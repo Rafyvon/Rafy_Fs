@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from '../components/Hero.jsx'
-import Header from '../components/Header.jsx'
 import ProductGuide from '../components/ProductGuide.jsx'
 import ProductList from '../components/ProductList.jsx'
 import Loading from '../components/Loading.jsx'
@@ -8,7 +7,7 @@ import Loading from '../components/Loading.jsx'
 const Home = () => {
   return (
     <div>
-        <Header/>
+        
         <Hero/>
         <ProductGuide/>
         <ProductList/>
