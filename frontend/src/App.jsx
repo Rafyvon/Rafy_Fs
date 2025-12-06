@@ -8,6 +8,7 @@ import Profile from "./pages/Profile.jsx";
 import Header from "./components/Header.jsx";
 import { AuthProvider } from "./context/AuthProvider.jsx";
 import { PrivateRoute } from "./context/PrivateRoute.jsx";
+import Register from "./pages/Register.jsx";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/best-products" element={<Products />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/register" element={<Register />} />
             <Route
               path="/profile"
               element={
